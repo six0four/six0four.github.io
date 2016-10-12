@@ -23,3 +23,12 @@ Now you can open README.md
 
 Download
 https://downloads.raspberrypi.org/raspbian/images/raspbian-2016-09-28/2016-09-23-raspbian-jessie.zip
+
+ 
+
+Take a look at
+https://mywiki.humber.ca/display/SchoolofAppliedTechnology/Humber+Raspberry+Pi+Image+Creation
+
+ 
+
+ 
