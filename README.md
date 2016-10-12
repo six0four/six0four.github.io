@@ -5,11 +5,11 @@ Projects website: http://six0four.github.io/
 
 # Table of Contents
 
-1. [This file](#This-file)
+1. [This file](#this-file)
 
-2. [Humber Sense Hat](#HSH)
+2. [Humber Sense Hat](#humber-sense-hat)
 
-3. [Third Example](#Image)
+3. [Third Example](#image)
 
 ## This-file
 
