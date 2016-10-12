@@ -5,21 +5,13 @@ Projects website: http://six0four.github.io/
 
 # Table of Contents
 
-1. [Example](#example)
+1. [This file](#This-file)
 
-2. [Example2](#example2)
+2. [Humber Sense Hat](#HSH)
 
-3. [Third Example](#third-example)
+3. [Third Example](#Image)
 
- 
-
-## Example
-
-##Example2
-
-## Third Example
-
- 
+## This-file
 
 This is a demonstration of a MarkDown (.md) README file.
 
@@ -31,7 +23,7 @@ Second, install http://www.texts.io/Texts-1.3.2.msi
 Now you can open README.md using Texts and modify it. You can also export a
 .pdf from the .md.
 
- 
+## Humber sense hat
 
 Humber Student Sense Hat Specifications:
 
@@ -65,7 +57,7 @@ Additional items included in the versions that are not stripped down:
 Download
 https://downloads.raspberrypi.org/raspbian/images/raspbian-2016-09-28/2016-09-23-raspbian-jessie.zip
 
- 
+## Image
 
 Humber Raspberry Pi Image Creation
 ==================================
