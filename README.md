@@ -3,15 +3,17 @@ Internet of Things Project
 
 Projects website: http://six0four.github.io/
 
-# Table of Contents
+Table of Contents
+=================
 
-1. [This file](#this-file)
+1.  [This File](#this-file)
 
-2. [Humber Sense Hat](#humber-sense-hat)
+2.  [Humber Sense Hat](#humber-sense-hat)
 
-3. [Third Example](#image)
+3.  [Humber Raspberry Pi Image Creation](#humber-raspberry-pi-image-creation)
 
-## This file
+This File
+---------
 
 This is a demonstration of a MarkDown (.md) README file.
 
@@ -20,10 +22,13 @@ https://github.com/jgm/pandoc/releases/download/1.16.0.2/pandoc-1.16.0.2-windows
 
 Second, install http://www.texts.io/Texts-1.3.2.msi
 
-Now you can open README.md using Texts and modify it. You can also export a
-.pdf from the .md.
+Now you can open README.md using Texts and modify it. You can also export a .pdf
+from the .md.
 
-## Humber sense hat
+Ctrl-K can be used to modify Table of Contents entries.
+
+Humber sense hat
+----------------
 
 Humber Student Sense Hat Specifications:
 
@@ -38,8 +43,8 @@ Humber Student Sense Hat Specifications:
 
 Additional items included in the versions that are not stripped down:
 
-1.  Humber sense hat eeprom for i2c id <https://www.sparkfun.com/products/525
-    https://www.adafruit.com/product/1895>
+1.  Humber sense hat eeprom for i2c id \<https://www.sparkfun.com/products/525
+    https://www.adafruit.com/product/1895\>
 
 2.  16 I/O pins MCP23017SO I/O Expander I2C
     <https://www.adafruit.com/products/732>
@@ -57,10 +62,8 @@ Additional items included in the versions that are not stripped down:
 Download
 https://downloads.raspberrypi.org/raspbian/images/raspbian-2016-09-28/2016-09-23-raspbian-jessie.zip
 
-## Image
-
 Humber Raspberry Pi Image Creation
-==================================
+----------------------------------
 
 Building the Humber image for the Sense Hat:
 
