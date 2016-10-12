@@ -17,7 +17,7 @@ This File
 
 This is a demonstration of a MarkDown (.md) README file.
 
-Start editing this file by first installing Pandoc [^1].
+Start editing this file by first installing Pandoc[^1].
 
 [^1]: https://github.com/jgm/pandoc/releases/download/1.16.0.2/pandoc-1.16.0.2-windows.msi
 
