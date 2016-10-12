@@ -3,21 +3,21 @@ Internet of Things Project
 
 Projects website: http://six0four.github.io/
 
-\# Table of Contents
+# Table of Contents
 
-1. [Example](\#example)
+1. [Example](#example)
 
-2. [Example2](\#example2)
+2. [Example2](#example2)
 
-3. [Third Example](\#third-example)
+3. [Third Example](#third-example)
 
  
 
-\#\# \#\#Example
+## Example
 
-\#\# \#Example2
+##Example2
 
-\#\# Third Example
+## Third Example
 
  
 
