@@ -1,7 +1,23 @@
 Internet of Things Project
 ==========================
 
-Site page: http://six0four.github.io/
+Projects website: http://six0four.github.io/
+
+`# Table of Contents `
+
+`1. [Example](#example) `
+
+`2. [Example2](#example2) `
+
+`3. [Third Example](#third-example)  `
+
+`## Example `
+
+`## Example2 `
+
+`## Third Example`
+
+ 
 
 This is a demonstration of a MarkDown (.md) README file.
 
@@ -10,10 +26,37 @@ https://github.com/jgm/pandoc/releases/download/1.16.0.2/pandoc-1.16.0.2-windows
 
 Second, install http://www.texts.io/Texts-1.3.2.msi
 
-Now you can open README.md
+Now you can open README.md using Texts and modify it. You can also export a
+.pdf from the .md.
 
-In order to create a .pdf from .md use:
-https://github.com/jgm/pandoc/releases/download/1.16.0.2/pandoc-1.16.0.2-windows.msi
+ 
+
+Humber Student Sense Hat Specifications:
+
+1.  DDS3231S IC RTC Clk/Calendar I2C 16-SOIC
+    <http://www.amazon.com/Donop-DS3231-AT24C32-precision-Arduino/dp/B00HCB7VYS>
+
+2.  4 channel 8 bit a/d, 1 channel d/a PCF8591T I2C-Bus D/A CONVERTER
+    <http://www.modmypi.com/raspberry-pi/breakout-boards/seeed/raspberry-pi-adda-expansion-board>
+    , Creatron
+
+3.  1 bidirectional LED
+
+Additional items included in the versions that are not stripped down:
+
+1.  Humber sense hat eeprom for i2c id <https://www.sparkfun.com/products/525
+    https://www.adafruit.com/product/1895>
+
+2.  16 I/O pins MCP23017SO I/O Expander I2C
+    <https://www.adafruit.com/products/732>
+
+3.  Temperature, humidity, pressure sensor. SparkFun Atmospheric Sensor Breakout
+
+    -   BME280 <https://www.sparkfun.com/products/13676>
+
+4.  Breadboarding area (optional)
+
+ NOTE: Pin compatible with original sense hat design
 
  
 
@@ -25,34 +68,10 @@ https://downloads.raspberrypi.org/raspbian/images/raspbian-2016-09-28/2016-09-23
 Humber Raspberry Pi Image Creation
 ==================================
 
-Humber Student Sense Hat Specifications:
-
-1.  Humber sense hat eeprom for i2c id
-    <https://www.sparkfun.com/products/525https://www.adafruit.com/product/1895>
-
-2.  DDS3231S IC RTC Clk/Calendar I2C 16-SOIC
-    <http://www.amazon.com/Donop-DS3231-AT24C32-precision-Arduino/dp/B00HCB7VYS>
-
-3.  4 channel 8 bit a/d, 1 channel d/a PCF8591T I2C-Bus D/A CONVERTER
-    <http://www.modmypi.com/raspberry-pi/breakout-boards/seeed/raspberry-pi-adda-expansion-board>
-    , Creatron
-
-4.  16 I/O pins MCP23017SO I/O Expander I2C
-    <https://www.adafruit.com/products/732>
-
-5.  1 bidirectional LED
-
-6.  Temperature, humidity, pressure sensor. SparkFun Atmospheric Sensor Breakout
-    - BME280 <https://www.sparkfun.com/products/13676>
-
-7.  Breadboarding area (optional)
-
- NOTE: Pin compatible with original sense hat design
-
 Building the Humber image for the Sense Hat:
 
-1.  Format an at least class 10 minimum of 8GB SD card with:[
-    https://www.sdcard.org/downloads/formatter\_4/index.html](https://www.sdcard.org/downloads/formatter_4/index.html) 
+1.  Format an at least class 10 minimum of 8GB SD card
+    with:<https://www.sdcard.org/downloads/formatter_4/index.html> 
 
 2.  Use <http://sourceforge.net/projects/win32diskimager/> to write the image
     once unzipped on the card:
