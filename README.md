@@ -11,7 +11,7 @@ Projects website: http://six0four.github.io/
 
 3. [Third Example](#image)
 
-## This-file
+## This file
 
 This is a demonstration of a MarkDown (.md) README file.
 
