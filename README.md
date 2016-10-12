@@ -32,11 +32,17 @@ from the .md.
 
 Ctrl-K can be used to modify Table of Contents entries/links and Ctrl-Shift-R
 for adding citations. A citation example is for the publication that we have
-referred to in our proposals: http://dx.doi.org/10.1109/JSEN.2014.2356342 where
-visiting that link provides a page where a citation can be downloaded in the
-BibTex format. This .bib bibliography file can then be added to this file. Next
-the style .csl can be downloaded from https://www.zotero.org/styles/apa
-[@6894583]
+referred to in our proposals where visiting the link below provides a page where
+a citation can be downloaded in the BibTex format. This .bib bibliography file
+can then be added to this file. Next the style .csl can be downloaded from
+https://www.zotero.org/styles/apa [@6894583] \<- this will become
+(Segura-Garcia, Felici-Castell, Perez-Solano, Cobos, & Navarro, 2015) plus the
+following entry will be added to the References when this file is exported:
+
+Segura-Garcia, J., Felici-Castell, S., Perez-Solano, J. J., Cobos, M., &
+Navarro, J. M. (2015). Low-cost alternatives for urban noise nuisance monitoring
+using wireless sensor networks. *IEEE Sensors Journal*, *15*(2), 836–844.
+<https://doi.org/10.1109/JSEN.2014.2356342>
 
 Humber sense hat
 ----------------
@@ -142,5 +148,11 @@ found:
     1.  Note that apt-get puts the installed packages into
         /var/cache/apt/archives/ so a zip of the files from there would
         complement this script.
+
+ 
+
+References (generated when this file is exported)
+
+=======
 
  
