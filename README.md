@@ -96,36 +96,39 @@ Building the Humber image for the Sense Hat:
         mysql-server \\  
         php5-mysql php5-curl vim-gtk scrot wgets git-core xscreensaver
         libreoffice clamav \\  
-        joomla asasda –y
+        joomla –y
 
-    5.  wget <http://download.zerotier.com/dist/zerotier-one_1.1.4_armhf.deb>
+the above needs to be revisted since the following packages that cannot be
+found:
 
-    6.  sudo dpkg –i zerotier-one\_1.0.4\_armhf.deb
+  pistore
 
-    7.  sudo wgets <https://www.libsdl.org/release/SDL2-2.0.3.tar.gz>
+  glgtoolkit
 
-    8.  sudo tar zxvf SDL2-2.0.3.tar.gz
+  jpeg
 
-    9.  cd SDL2-2.0.3
+  jpeg-dev
 
-    10. sudo mkdir build
+  Xp
 
-    11. cd build
+  Xp-dev
 
-    12. sudo ../configure –host=armv7l-raspberry-linux-gnueabihf
-        –disable-pulseaudio \\  
-        --disable-esd –disable-video-mir –disable-video-wayland
-        –disable-video-x11 \\  
-        --disable-video-opengl
+  Libjpeg
 
-    13. sudo make –j 4
+   fontconfig
 
-    14. sudo make install
+  buildessential
 
-    15. Use <http://sourceforge.net/projects/win32diskimager/> to read the image
-        into a file.
+  8dl-2
 
-    16. Note that apt-get puts the installed packages into
+  wgets
+
+  joomla
+
+1.  Use <http://sourceforge.net/projects/win32diskimager/> to read the image
+    into a file.
+
+    1.  Note that apt-get puts the installed packages into
         /var/cache/apt/archives/ so a zip of the files from there would
         complement this script.
 
