@@ -82,11 +82,6 @@ Additional items included in the versions that are not stripped down:
 
  NOTE: Pin compatible with original sense hat design
 
- 
-
-Download
-https://downloads.raspberrypi.org/raspbian/images/raspbian-2016-09-28/2016-09-23-raspbian-jessie.zip
-
 Humber Raspberry Pi Image Creation
 ----------------------------------
 
