@@ -17,7 +17,9 @@ Table of Contents
 
 3.  [Humber Raspberry Pi Image Creation](#humber-raspberry-pi-image-creation)
 
-4.  [References] (#references-generated-when-this-file-is-exported)
+4.  [References (generated when this file is
+    exported)](#references-generated-when-this-file-is-exported)
+    (\#references-generated-when-this-file-is-exported)
 
 This File
 ---------
@@ -32,14 +34,18 @@ Second, install Texts: http://www.texts.io/Texts-1.3.2.msi
 Now you can open README.md using Texts and modify it. You can also export a .pdf
 from the .md.
 
-Ctrl-K can be used to modify Table of Contents entries/links and Ctrl-Shift-R
-for adding citations. A citation example is for the publication that we have
-referred to in our proposals where visiting the link below provides a page where
-a citation can be downloaded in the BibTex format. This .bib bibliography file
-can then be added to this file. Next the style .csl can be downloaded from
-https://www.zotero.org/styles/apa [@6894583] \<- this will become
-(Segura-Garcia, Felici-Castell, Perez-Solano, Cobos, & Navarro, 2015) plus the
-following entry will be added to the References when this file is exported:
+Ctrl-K can be used to modify Table of Contents entries/links, note that if a
+Table of Contents is not created in the .md file it can be generated during the
+export to .pdf process.
+
+Ctrl-Shift-R can be used for adding citations. A citation example is for the
+publication that we have referred to in our proposals where visiting the link
+below provides a page where a citation can be downloaded in the BibTex format.
+This .bib bibliography file can then be added to this file. Next the style .csl
+can be downloaded from https://www.zotero.org/styles/apa [@6894583] \<- this
+will become (Segura-Garcia, Felici-Castell, Perez-Solano, Cobos, & Navarro,
+2015) plus the following entry will be added to the References when this file is
+exported to .pdf which also triggers the installation of XeLaTeX:
 
 Segura-Garcia, J., Felici-Castell, S., Perez-Solano, J. J., Cobos, M., &
 Navarro, J. M. (2015). Low-cost alternatives for urban noise nuisance monitoring
@@ -154,4 +160,4 @@ found:
  
 
 References (generated when this file is exported)
-----------
+-------------------------------------------------
