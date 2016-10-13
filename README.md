@@ -95,14 +95,19 @@ Building the Humber image for the Sense Hat:
 1.  Format an at least class 10 minimum of 8GB SD card
     with:<https://www.sdcard.org/downloads/formatter_4/index.html> 
 
-2.  Use <http://sourceforge.net/projects/win32diskimager/> to write the image
-    once unzipped on the card:
-    <http://downloads.raspberrypi.org/raspbian/images/raspbian-2016-03-18/2016-03-18-raspbian-jessie.zip>
+2.  Use <http://sourceforge.net/projects/win32diskimager/> to write the
+    following image once unzipped on to the card:
+    https://downloads.raspberrypi.org/raspbian/images/raspbian-2016-09-28/2016-09-23-raspbian-jessie.zip
 
-3.  Change internationalization options to 104 key US keyboard via sudo
+3.  Alternatively you can use copy the contents of
+    https://downloads.raspberrypi.org/NOOBS/images/NOOBS-2016-10-05/NOOBS\_v2\_0\_0.zip
+    to the card which, after the first boot, has a similar result to the above
+    step.
+
+4.  Change internationalization options to 104 key US keyboard via sudo
     raspi-config
 
-4.  Run:
+5.  Run:
 
     1.  \#!/bin/bash
 
