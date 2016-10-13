@@ -19,7 +19,6 @@ Table of Contents
 
 4.  [References (generated when this file is
     exported)](#references-generated-when-this-file-is-exported)
-    (\#references-generated-when-this-file-is-exported)
 
 This File
 ---------
