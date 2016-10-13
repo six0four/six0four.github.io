@@ -1,6 +1,6 @@
 ---
-bibliography: RPiCitations.bib
 csl: apa.csl
+bibliography: RPiCitations.bib
 ---
 
 Internet of Things Project
@@ -16,6 +16,8 @@ Table of Contents
 2.  [Humber Sense Hat](#humber-sense-hat)
 
 3.  [Humber Raspberry Pi Image Creation](#humber-raspberry-pi-image-creation)
+
+4.  [References] (#references-(generated-when-this-file-is-exported))
 
 This File
 ---------
@@ -152,6 +154,4 @@ found:
  
 
 References (generated when this file is exported)
-==========
-
- 
+----------
