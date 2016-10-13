@@ -17,7 +17,7 @@ Table of Contents
 
 3.  [Humber Raspberry Pi Image Creation](#humber-raspberry-pi-image-creation)
 
-4.  [References] (#references-(generated-when-this-file-is-exported))
+4.  [References] (#references-generated-when-this-file-is-exported)
 
 This File
 ---------
