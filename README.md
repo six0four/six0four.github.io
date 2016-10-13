@@ -38,7 +38,7 @@ Table of Contents is not created in the .md file it can be generated during the
 export to .pdf process.
 
 Ctrl-Shift-R can be used for adding citations. A citation example is for the
-publication that we have referred to in our proposals where visiting the link
+publication that we have referred to in our proposals where visiting the DOI link
 below provides a page where a citation can be downloaded in the BibTex format.
 This .bib bibliography file can then be added to this file. Next the style .csl
 can be downloaded from https://www.zotero.org/styles/apa [@6894583] \<- this
