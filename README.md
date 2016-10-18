@@ -17,7 +17,9 @@ Table of Contents
 
 3.  [Humber Raspberry Pi Image Creation](#humber-raspberry-pi-image-creation)
 
-4.  [References (generated when this file is
+4.  [Enterprise Wi-Fi](#enterprise-wi-fi)
+
+5.  [References (generated when this file is
     exported)](#references-generated-when-this-file-is-exported)
 
 This File
@@ -108,8 +110,10 @@ Building the Humber image for the Sense Hat:
     2.  sudo apt-get update
 
     3.  sudo apt-get upgrade
+	
+	4.  sudo apt-get purge realvnc-vnc-server
 
-    4.  sudo apt-get install pistore glgtoolkit xrdp wiringPi xrdp vim
+    5.  sudo apt-get install pistore glgtoolkit xrdp wiringPi xrdp vim
         libx11-dev libxpm-dev \\  
         xorg jpeg jpeg-dev Xp Xp-dev Libjpeg Libjpeg-dev LibXp-dev
         fontconfig-config  \\ fontconfig filezilla buildessential
@@ -149,6 +153,23 @@ found:
 
   joomla
 
+For the Broadcom Development Platforms available from the parts crib /etc/xrdp/xrdp.ini has the username and password set as per:
+ [xrdp1]
+Name=sesman-Xvnc
+Lib=libnc.so
+Username=pi
+Password=raspberry
+Ip=127.0.0.1
+Port=-1
+
+They also have the static IP set via: /boot/cmdline.txt as per:
+dwc_otg.lpm_enable=0 console=ttyAMA0,115200 console=tty1 root=/dev/mmcblk0p6 rootfstype=ext4 elavator=deadline fsck.repair=yes rootwait ip=169.254.0.2
+on your device you may need:
+dwc_otg.lpm_enable=0 console=ttyAMA0,115200 console=tty1 root=/dev/mmcblk0p7 rootfstype=ext4 elavator=deadline fsck.repair=yes rootwait ip=169.254.0.2
+or:
+dwc_otg.lpm_enable=0 console=serial0,115200 console=tty1 root=/dev/mmcblk0p2 rootfstype=ext4 elavator=deadline fsck.repair=yes rootwait splash plymouth.ignore-serial-consoles ip=169.254.0.2
+
+
 1.  Use <http://sourceforge.net/projects/win32diskimager/> to read the image
     into a file.
 
@@ -157,6 +178,40 @@ found:
         complement this script.
 
  
+Enterprise Wi-Fi
+----------------------------------
+
+Connecting to Enterprise Wi-Fi can be a challenge, please share your respective successes - here is my configuration:
+
+1.  In /etc/network/interfaces:
+
+auto lo
+iface lo inet loopback
+iface eth0 inet dhcp
+allow-hotplug wlan0
+iface wlan0 inet manual
+wpa-roam /etc/wpa_supplicant/wpa_supplicant.conf
+iface default inet dhcp
+
+2.  In /etc/wpa_supplicant/wpa_supplicant.conf:
+
+ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
+update_config=1
+network={
+        ssid="myWi-Fi@Humber"
+        proto=RSN
+        key_mgmt=WPA-EAP
+        pairwise=CCMP
+        auth_alg=OPEN
+        eap=PEAP
+        identity="n12345678"
+        password="aaaAAA12"
+        phase2="auth=MSCHAPV2"
+}
+
+3.  Download Humber Certificate (For HumberSecure).cer from https://its.humber.ca/wireless/humbersecure/
+
+4.  Reboot
 
 References (generated when this file is exported)
 -------------------------------------------------
