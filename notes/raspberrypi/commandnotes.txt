@@ -1,7 +1,0 @@
-# checking the system and hardware clock times:
-date; sudo hwclock
-# using the date command to set the system time
-sudo date -s "14 MAR 2016 13:06:00"
-# updating the hardware clock with the new system time
-sudo hwclock -w
-
